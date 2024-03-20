@@ -1,0 +1,181 @@
+
+.nav-assignment{
+   
+
+}
+.nav-assignment ul{
+    display: flex;
+    background-color: #ebe8e5;
+    margin-left: 12px;
+    width: 374px;
+    height: 51px;
+    align-items: center;
+    justify-content: normal;
+    list-style-type: none;
+    padding-left: 24px;
+    border-radius: 11px;
+}
+.nav-assignment ul li{
+    padding-right: 16px;
+    
+}
+.nav-assignment ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    font-size: 15px;
+
+}
+ a:after{
+    content: "";
+    position: absolute;
+    background-color: brown;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+ }
+ a:hover:after{
+    width: 100%;
+ }
+ .searcha-box{
+    display: flex;
+    align-items: center;
+    background: #d3c8c8;
+    padding: 10px 38px;
+    border-radius: 30px;
+    margin-right: 452px;
+ }
+
+.searcha-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color:black;
+    max-width: 200px;
+    font-size: 16px;
+}
+ .searcha-box input::placeholder{
+    color: #fff;
+ }
+ .searcha-box i{
+  padding-left: 396px;
+ }
+ .searcha-filter{
+    display: flex;
+ }
+ .filt{
+    display: flex;
+ }
+ .filt i{
+    height: 14px;
+    margin-left: -442px;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+ .filt h2{
+    position: absolute;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    margin-left: -413px;
+}
+ .assignment{
+    display: flex;
+ }
+ .assignment .coding{
+    width: 78px;
+    height: 32px;
+    background: #efedeb;
+    margin-left: 14px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 5px;
+ }
+ .assignment .coding h4{
+    font-size: 16px;
+    font-size: 16px;
+    color: #799bd7;
+    font-family: sans-serif;
+
+ }
+.assignment-name h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+.assignment{
+    margin-top: 69px;
+    margin-left: 25px;
+}
+.detail{
+    display: flex;
+}
+.tag{
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+}
+.conclude p{
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: cursive;
+}
+.conclude{
+    display: flex;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.date p{
+    padding-left: 8px;
+    font-size: 13px;
+    font-family: cursive;
+}
+.date{
+    display: flex;
+    padding-left: 16px;
+    padding-top: 9px;
+}
+.author h3{
+    padding-left: 9px;
+    font-size: 16px;
+    padding-top: 6px;
+    font-family: cursive;
+}
+.short-form{
+    width: 30px;
+    background:#9999e7;;
+    height: 29px;
+    border-radius: 16px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+.short-form h6{
+    color: white;
+
+}
+.horizontal-line{
+    width: 1200px;
+    height: 1px;
+    background-color: silver;
+}
+.page{
+    width: 32px;
+    height: 28px;
+    background: whitesmoke;
+    margin-left: 18px;
+    padding-left: 10px;
+}
+.page-btn{
+    display: flex;
+    margin-top: 55px;
+    margin-left: 207px;
+
+}
